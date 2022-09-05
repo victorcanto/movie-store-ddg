@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-399ykn"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 css-1idn90j-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiBox-root css-69i1ev"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h4 css-1mtqh3w-MuiTypography-root"
+            >
+              test
+            </div>
+            <button
+              aria-label="close"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge css-1pz7awu-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="CloseIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <ul
+          class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          data-testid="list-items"
+        >
+          <div>
+            <div
+              class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+              style="min-height: 0px;"
+            >
+              <div
+                class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+              >
+                <div
+                  class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                  >
+                    empty test
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <span
+    aria-label="Mais"
+    class="MuiBadge-root BaseBadge-root css-1c32n2y-MuiBadge-root"
+    data-mui-internal-clone-element="true"
+    data-testid="more-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+      data-testid="more-icon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+      />
+    </svg>
+    <span
+      class="MuiBadge-badge MuiBadge-standard MuiBadge-invisible MuiBadge-anchorOriginTopRight MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorSecondary BaseBadge-badge BaseBadge-invisible css-fu0map-MuiBadge-badge"
+    >
+      0
+    </span>
+  </span>
+</DocumentFragment>
+`;

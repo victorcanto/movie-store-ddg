@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-rf0srl-MuiButtonBase-root-MuiButton-root"
+    data-testid="add-to-cart-button"
+    tabindex="0"
+    to="/"
+  >
+    <h6
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-b2zrw0-MuiTypography-root"
+    >
+      ADICIONAR
+    </h6>
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <span
+    data-testid="price"
+  >
+    R$0.00
+  </span>
+</DocumentFragment>
+`;

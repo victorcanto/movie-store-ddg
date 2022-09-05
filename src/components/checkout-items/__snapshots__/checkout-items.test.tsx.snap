@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-uwwqev"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      data-testid="checkout-items"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 css-1idn90j-MuiGrid-root"
+      >
+        <ul
+          class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

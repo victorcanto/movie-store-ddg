@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-3ge09w"
+    data-testid="cards"
+  >
+    <div
+      class="infinite-scroll-component__outerdiv"
+    >
+      <div
+        class="infinite-scroll-component "
+        style="height: auto; overflow: hidden;"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-spacing-md-3 css-rxjtmh-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 css-xwrlfo-MuiGrid-root"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-14spjgz-MuiPaper-root-MuiCard-root"
+              data-testid="card"
+            >
+              <div
+                class="MuiBox-root css-79elbk"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1xgqqg8-MuiButtonBase-root-MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    aria-label="Favoritar"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-1rr6odo-MuiSvgIcon-root"
+                    data-mui-internal-clone-element="true"
+                    data-testid="favorite-icon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <img
+                  alt="Dragon Ball Super: Super Hero"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10q1o9j-MuiCardMedia-root"
+                  src="https://image.tmdb.org/t/p/w500//rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg"
+                  width="100%"
+                />
+              </div>
+              <div
+                class="MuiCardContent-root css-wvc621-MuiCardContent-root"
+              >
+                <div
+                  class="MuiBox-root css-u6v8er"
+                >
+                  <div
+                    class="MuiBox-root css-1ys39dj"
+                  >
+                    <h5
+                      class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap css-16nexq1-MuiTypography-root"
+                    >
+                      Dragon Ball Super: Super Hero
+                    </h5>
+                    <div
+                      class="MuiBox-root css-70qvj9"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        aria-label="Número de votos"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mey93b-MuiSvgIcon-root"
+                        data-mui-internal-clone-element="true"
+                        data-testid="star-icon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                      >
+                        959
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiBox-root css-2imjyh"
+                  >
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Animação
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Ficção científica
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Ação
+                      </span>
+                    </div>
+                  </div>
+                  <h4
+                    class="MuiTypography-root MuiTypography-h4 css-149xwtl-MuiTypography-root"
+                  >
+                    <span
+                      data-testid="price"
+                    >
+                      R$79.99
+                    </span>
+                  </h4>
+                </div>
+              </div>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing css-1eu7e7c-MuiCardActions-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-rf0srl-MuiButtonBase-root-MuiButton-root"
+                  data-testid="add-to-cart-button"
+                  tabindex="0"
+                  to="/"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-b2zrw0-MuiTypography-root"
+                  >
+                    ADICIONAR
+                  </h6>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 css-xwrlfo-MuiGrid-root"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-14spjgz-MuiPaper-root-MuiCard-root"
+              data-testid="card"
+            >
+              <div
+                class="MuiBox-root css-79elbk"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1xgqqg8-MuiButtonBase-root-MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    aria-label="Favoritar"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-1rr6odo-MuiSvgIcon-root"
+                    data-mui-internal-clone-element="true"
+                    data-testid="favorite-icon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <img
+                  alt="Thor: Love and Thunder"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10q1o9j-MuiCardMedia-root"
+                  src="https://image.tmdb.org/t/p/w500//pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg"
+                  width="100%"
+                />
+              </div>
+              <div
+                class="MuiCardContent-root css-wvc621-MuiCardContent-root"
+              >
+                <div
+                  class="MuiBox-root css-u6v8er"
+                >
+                  <div
+                    class="MuiBox-root css-1ys39dj"
+                  >
+                    <h5
+                      class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap css-16nexq1-MuiTypography-root"
+                    >
+                      Thor: Love and Thunder
+                    </h5>
+                    <div
+                      class="MuiBox-root css-70qvj9"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        aria-label="Número de votos"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mey93b-MuiSvgIcon-root"
+                        data-mui-internal-clone-element="true"
+                        data-testid="star-icon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                      >
+                        2223
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiBox-root css-2imjyh"
+                  >
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Animação
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Ficção científica
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Ação
+                      </span>
+                    </div>
+                  </div>
+                  <h4
+                    class="MuiTypography-root MuiTypography-h4 css-149xwtl-MuiTypography-root"
+                  >
+                    <span
+                      data-testid="price"
+                    >
+                      R$79.99
+                    </span>
+                  </h4>
+                </div>
+              </div>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing css-1eu7e7c-MuiCardActions-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-rf0srl-MuiButtonBase-root-MuiButton-root"
+                  data-testid="add-to-cart-button"
+                  tabindex="0"
+                  to="/"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-b2zrw0-MuiTypography-root"
+                  >
+                    ADICIONAR
+                  </h6>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 css-xwrlfo-MuiGrid-root"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-14spjgz-MuiPaper-root-MuiCard-root"
+              data-testid="card"
+            >
+              <div
+                class="MuiBox-root css-79elbk"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1xgqqg8-MuiButtonBase-root-MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    aria-label="Favoritar"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-1rr6odo-MuiSvgIcon-root"
+                    data-mui-internal-clone-element="true"
+                    data-testid="favorite-icon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <img
+                  alt="DC League of Super-Pets"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10q1o9j-MuiCardMedia-root"
+                  src="https://image.tmdb.org/t/p/w500//r7XifzvtezNt31ypvsmb6Oqxw49.jpg"
+                  width="100%"
+                />
+              </div>
+              <div
+                class="MuiCardContent-root css-wvc621-MuiCardContent-root"
+              >
+                <div
+                  class="MuiBox-root css-u6v8er"
+                >
+                  <div
+                    class="MuiBox-root css-1ys39dj"
+                  >
+                    <h5
+                      class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap css-16nexq1-MuiTypography-root"
+                    >
+                      DC League of Super-Pets
+                    </h5>
+                    <div
+                      class="MuiBox-root css-70qvj9"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        aria-label="Número de votos"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mey93b-MuiSvgIcon-root"
+                        data-mui-internal-clone-element="true"
+                        data-testid="star-icon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                      >
+                        360
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiBox-root css-2imjyh"
+                  >
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Animação
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Ficção científica
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Ação
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Família
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Ficção científica
+                      </span>
+                    </div>
+                    <div
+                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
+                    >
+                      <span
+                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                      >
+                        Comédia
+                      </span>
+                    </div>
+                  </div>
+                  <h4
+                    class="MuiTypography-root MuiTypography-h4 css-149xwtl-MuiTypography-root"
+                  >
+                    <span
+                      data-testid="price"
+                    >
+                      R$79.99
+                    </span>
+                  </h4>
+                </div>
+              </div>
+              <div
+                class="MuiCardActions-root MuiCardActions-spacing css-1eu7e7c-MuiCardActions-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-rf0srl-MuiButtonBase-root-MuiButton-root"
+                  data-testid="add-to-cart-button"
+                  tabindex="0"
+                  to="/"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-b2zrw0-MuiTypography-root"
+                  >
+                    ADICIONAR
+                  </h6>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-bf9fwu"
+        >
+          <div
+            class="MuiBox-root css-k008qs"
+            data-testid="loading"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <svg
+    aria-hidden="true"
+    aria-label="Número de votos"
+    class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mey93b-MuiSvgIcon-root"
+    data-mui-internal-clone-element="true"
+    data-testid="star-icon"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+    />
+  </svg>
+</DocumentFragment>
+`;

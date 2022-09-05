@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the base state 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="Página inical do Movie Store"
+    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+    data-mui-internal-clone-element="true"
+    data-testid="logo-link"
+    href="/"
+  >
+    <img
+      alt="logo"
+      src="logo.svg"
+      width="50px"
+    />
+  </a>
+</DocumentFragment>
+`;
