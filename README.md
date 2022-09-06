@@ -59,5 +59,5 @@ REACT_APP_API_ACCESS_TOKEN=<your token>
 > Na raiz do projeto, executar o comando:
 
 ```bash
-  docker-compose up
+  docker-compose up && yarn test
 ```
