@@ -4,8 +4,8 @@ import { GenrersResponse, MoviesResponse } from '../shared';
 export const moviesApi = axios.create({
 	baseURL: process.env.REACT_APP_API_URL,
 	headers: {
-		'content-type': 'application/json;charset=utf-8',
-		authorization: `Bearer ${process.env.REACT_APP_API_ACCESS_TOKEN}`,
+		'Content-Type': 'application/json;charset=utf-8',
+		Authorization: `Bearer ${process.env.REACT_APP_API_ACCESS_TOKEN}`,
 	},
 	params: {
 		language: 'pt-BR',
