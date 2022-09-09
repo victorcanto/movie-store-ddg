@@ -43,7 +43,7 @@ const moviesSlice = createSlice({
 		builder.addCase(fetchMovies.fulfilled, (state, action) => {
 			state.loading = false;
 
-			state.list = [...state.list, ...action.payload];
+			state.list = action.payload;
 
 			state.error = '';
 		});
@@ -74,10 +74,9 @@ const moviesSlice = createSlice({
 
 		builder.addCase(fetchMoviesBySearchQuery.fulfilled, (state, action) => {
 			state.loading = false;
-			if (state.search.length && state.list.length) {
-				state.list = action.payload;
-				state.pageNum = 1;
-			}
+
+			state.list = action.payload;
+
 			state.error = '';
 		});
 		builder.addCase(fetchMoviesBySearchQuery.rejected, (state, action) => {

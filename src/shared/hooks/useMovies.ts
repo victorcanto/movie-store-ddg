@@ -49,11 +49,12 @@ export const useMovies = () => {
 
 	useEffect(() => {
 		dispatch(fetchMovieGenres());
+		dispatch(fetchMovies(pageNum));
 	}, []);
 
 	useEffect(() => {
 		dispatch(fetchMovies(pageNum));
-	}, [pageNum, dispatch]);
+	}, [pageNum]);
 
 	useEffect(() => {
 		if (searchParam.length) {
@@ -61,12 +62,21 @@ export const useMovies = () => {
 				fetchMoviesBySearchQuery(transformSearchQuery(searchParam)),
 			);
 		} else {
-			dispatch(fetchMovies(pageNum));
+			dispatch(fetchMovies(1));
 		}
 	}, [searchParam]);
 
 	useEffect(() => {
-		setResults(getMoviesComplete(movies, genres, searchParam));
+		setResults((previousResult) =>
+			(pageNum === 1 && !searchParam.length) ||
+			pageNum === 1 ||
+			searchParam.length
+				? getMoviesComplete(movies, genres, searchParam)
+				: [
+						...previousResult,
+						...getMoviesComplete(movies, genres, searchParam),
+				  ],
+		);
 	}, [movies]);
 
 	const refetch = () => {
