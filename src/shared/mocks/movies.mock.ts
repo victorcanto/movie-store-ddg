@@ -55,18 +55,8 @@ export const moviesMock: Movie[] = [
 			{ id: 16, name: 'Animação' },
 			{ id: 878, name: 'Ficção científica' },
 			{ id: 28, name: 'Ação' },
-			{
-				id: 10751,
-				name: 'Família',
-			},
-			{
-				id: 878,
-				name: 'Ficção científica',
-			},
-			{
-				id: 35,
-				name: 'Comédia',
-			},
+			{ id: 10751, name: 'Família' },
+			{ id: 35, name: 'Comédia' },
 		],
 		id: 539681,
 		original_language: 'en',

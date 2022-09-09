@@ -415,15 +415,6 @@ exports[`snapshot of the base state 1`] = `
                       <span
                         class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                       >
-                        Ficção científica
-                      </span>
-                    </div>
-                    <div
-                      class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-aeaiuv-MuiChip-root"
-                    >
-                      <span
-                        class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
-                      >
                         Comédia
                       </span>
                     </div>

@@ -97,9 +97,10 @@ export function Card({ item }: CardProps) {
 					</Box>
 
 					<Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
-						{item.genres.map(({ name }) => (
+						{item.genres.map((genre) => (
 							<Chip
-								label={name}
+								key={genre.id}
+								label={genre.name}
 								sx={{
 									color: theme.palette.secondary.light,
 								}}
