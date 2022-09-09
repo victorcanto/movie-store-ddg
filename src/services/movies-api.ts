@@ -9,6 +9,7 @@ export const moviesApi = axios.create({
 	},
 	params: {
 		language: 'pt-BR',
+		api_key: process.env.REACT_APP_API_KEY,
 	},
 });
 
