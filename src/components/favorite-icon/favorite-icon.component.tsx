@@ -4,9 +4,7 @@ import MuiFavoriteIcon from '@mui/icons-material/Favorite';
 import {
 	addFavoriteItem,
 	checkFavoriteItemExistence,
-	FavoriteItem,
 	Movie,
-	MovieApi,
 	removeFavoriteItem,
 } from '../../shared';
 import {
@@ -39,18 +37,18 @@ export function FavoriteIcon({ item }: FavoriteIconProps) {
 	const toggle = (): void => setIsFavorited(!isFavorited);
 
 	const addItemToFavoritesHandler = (): void => {
-		const newCartItems = addFavoriteItem(favoriteItems, item);
+		const newFavoriteItems = addFavoriteItem(favoriteItems, item);
 
-		if (newCartItems) {
-			dispatch(setFavoriteItems(newCartItems));
+		if (newFavoriteItems) {
+			dispatch(setFavoriteItems(newFavoriteItems));
 		}
 	};
 
 	const removeItemToFavoritesHandler = (): void => {
-		const newCartItems = removeFavoriteItem(favoriteItems, item);
+		const newFavoriteItems = removeFavoriteItem(favoriteItems, item);
 
-		if (newCartItems) {
-			dispatch(setFavoriteItems(newCartItems));
+		if (newFavoriteItems) {
+			dispatch(setFavoriteItems(newFavoriteItems));
 		}
 	};
 

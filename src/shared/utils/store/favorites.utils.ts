@@ -10,7 +10,7 @@ export const addFavoriteItem = (
 	favoriteItems: FavoriteItem[],
 	itemToAdd: Movie,
 ): FavoriteItem[] | void => {
-	const { id, title, poster_path, popularity } = itemToAdd;
+	const { id, title, poster_path, price } = itemToAdd;
 
 	const existingFavoriteItem = checkFavoriteItemExistence(
 		favoriteItems,
@@ -21,10 +21,7 @@ export const addFavoriteItem = (
 		return;
 	}
 
-	return [
-		...favoriteItems,
-		{ id, title, poster_path, price: popularity as number },
-	];
+	return [...favoriteItems, { id, title, poster_path, price }];
 };
 
 export const removeFavoriteItem = (
